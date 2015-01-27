@@ -1,0 +1,31 @@
+
+h1 {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: 	#D1FFD1;
+}
+
+.title {
+  background-color: #5CE68A;
+}
+
+.nav {
+  background-color: gray;
+}
+
+.column1 {
+    float: left;
+    width: 70%;
+    height: 100vh;
+    background-color:	#6B8FB2;
+}
+
+.column2 {
+    float: left;
+    width: 30%;
+    height: 100vh;
+    background-color:		#E06666;
+}
