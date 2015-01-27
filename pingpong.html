@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Ping Pong</title>
+
+</head>
+<body style="font-family: 'Lucida Console'; color: #FF6666; background-color: #000">
+  <h1>Ping-Pong!</h1>
+<script type="text/javascript">
+  var ball = prompt("Enter any number");
+  var racquet = 0;
+  while (racquet < ball) {
+    racquet++;
+    if (racquet % 3 == 0 && racquet % 5 == 0){
+        document.write('<li type=square>ping-pong');
+      }else if (racquet % 3 == 0) {
+        document.write('<li type=square>ping');
+      }else if (racquet % 5 == 0) {
+        document.write('<li type=square>pong');
+      }
+    else {
+      document.write("<li type= square>" + racquet);
+  }
+}
+</script>
+</body>
+</html>
